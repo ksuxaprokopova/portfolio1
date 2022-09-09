@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    background-color: #F3C6BD;
+    padding: 44px 0 71px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 15px;
+}
+
+.logo_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B292D;
+}
+
+.logo_text{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.header_li:first-of-type{
+    margin-right: 30px;
+}
+
+.header_link{
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D;
+    text-decoration: none;
+}
+
+.header_li{
+    position: relative;
+}
+
+.header_li a:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    bottom: -5px;
+}
+
+.header_ul{
+    margin-right: 77px;
+}
+
+.header_link:hover{
+    font-weight: bold;
+}
+
+.header_button{
+    width: 160px;
+    height: 48px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 13px;
+    color: #FFFFFF;
+    border: none;
+   
+}
+
+.header_button:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #0e1daa;
+}
+
+.questions{
+    max-width: 1400px;
+    padding: 77px 130px;
+    background-color: #F4F5F7;
+    
+}
+.what{
+    max-width: 550px;
+    margin-right: 29px;
+}
+
+.who{
+    max-width: 550px;
+}
+
+.w_title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+     color: #2B292D;
+     margin-bottom: 10px;
+}
+
+.w_text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+}
+
+.logos{;
+   
+    padding: 30px;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.logos_img{
+    margin-right: 105px;
+}
+
+.logos_img:last-child{
+    margin-right: 0;
+}
