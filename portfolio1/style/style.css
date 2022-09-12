@@ -62,6 +62,7 @@ body{
     height: 2px;
     background-color: #000000;
     bottom: -5px;
+    transition: .7s;
 }
 
 .header_ul{
@@ -70,6 +71,7 @@ body{
 
 .header_link:hover{
     font-weight: bold;
+    transition: .7s;
 }
 
 .header_button{
@@ -86,8 +88,8 @@ body{
 
 .header_button:hover{
     cursor: pointer;
-    transition: 1s;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #0e1daa;
+    transition: .7s;
+    background:  #9198d5;
 }
 
 .questions{
@@ -190,6 +192,7 @@ body{
 
 .understand_button_1:hover{
     cursor: pointer;
+    transition: .7s;
     background-color: #9198d5;
 }
 
@@ -206,6 +209,7 @@ body{
 
 .understand_button_2:hover{
     cursor: pointer;
+    transition: .7s;
     background-color: #9198d5;
     color: #FFFFFF;
 }
@@ -234,6 +238,7 @@ body{
 .img_understand:hover{
     background-color: rgba(49, 65, 197, 1);
     cursor: pointer;
+    transition: .7s;
     color: #FFFFFF;
 }
 
@@ -249,6 +254,7 @@ body{
 .img_understand_text:hover{
     color:#ffffff ;
     cursor: pointer;
+    transition: .7s;
 }
 
 .portfolio{
@@ -268,7 +274,7 @@ body{
 
 .portfolio_text{
     
-    font-weight: 400;
+    font-weight: 500;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -284,7 +290,12 @@ body{
 }
 
 .item_portfolio{
+    transition: opacity .7s;
+}
+
+.item_portfolio:hover{
     cursor: pointer;
+    opacity: .7;
 }
 
 .item_portfolio:nth-child(3), .item_portfolio:nth-child(4){
