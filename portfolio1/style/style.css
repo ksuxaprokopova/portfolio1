@@ -124,7 +124,7 @@ body{
 }
 
 .logos_img{
-    margin-right: 105px;
+    
 }
 
 .logos_img:last-child{
@@ -132,7 +132,7 @@ body{
 }
 
 .understand{
-    background:rgb(211, 217, 219);
+    background:rgba(0, 161, 198, .09);
     padding: 110px  ;
    
 
@@ -165,7 +165,7 @@ body{
     line-height: 34px;
     text-align: center;
     color: #2B292D;
-    margin-bottom: 34px;
+    margin-bottom: 34px;++
 }
 
 .understand_buttons{
@@ -214,7 +214,7 @@ body{
 .understand_slider{
  
 }
-.grid{
+.grid_understand{
     display: grid;
     gap: 31px;
     grid-template-columns: repeat(4, 262px);
@@ -224,8 +224,69 @@ body{
 }
 
 .img_understand{
+    text-align: center;
     background-color: #fff;
-    padding: 22px ;
-    padding-left: 50px;
+    padding-top: 22px ;
+    margin-bottom: 22px;
+   
 
+}
+.img_understand:hover{
+    background-color: rgba(49, 65, 197, 1);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.img_understand_text{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B292D;
+    
+}
+
+.img_understand_text:hover{
+    color:#ffffff ;
+    cursor: pointer;
+}
+
+.portfolio{
+    padding: 90px 130px;
+}
+.portfolio_about{
+    text-align: center;
+}
+.portfolio_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.portfolio_text{
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;
+    margin-bottom: 95px;
+}
+
+.grid_portfolio{
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
+    grid-template-rows: repeat(3,208px);
+    gap: 45px;
+}
+
+.item_portfolio{
+    cursor: pointer;
+}
+
+.item_portfolio:nth-child(3), .item_portfolio:nth-child(4){
+    grid-row: span 2;
 }
